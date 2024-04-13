@@ -4,7 +4,6 @@ import numpy as np
 # import talib
 from plotly.graph_objs import Figure
 from .utils import make_list
-import ta #Saran
 from pykalman import KalmanFilter #Saran
 
 class StudyError(Exception):
